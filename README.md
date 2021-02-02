@@ -1,3 +1,5 @@
+:warning: **The PHP driver is in maintenance mode. We are still accepting pull-requests and we will occasionally release critical bug fixes, but no ongoing active development is being done currently.**
+
 # DataStax PHP Driver for Apache Cassandra
 
 [![Build Status: Linux](https://travis-ci.org/datastax/php-driver.svg)](https://travis-ci.org/datastax/php-driver)
@@ -60,11 +62,6 @@ better compatibility.
 * JIRA: https://datastax-oss.atlassian.net/browse/PHP
 * Mailing List: https://groups.google.com/a/lists.datastax.com/forum/#!forum/php-driver-user
 * DataStax Academy via Slack: https://academy.datastax.com/slack
-
-## Feedback Requested
-
-**Help us focus our efforts!** [Provide your input] on the PHP Driver Platform
-and Runtime Survey (we kept it short).
 
 ## Quick Start
 
@@ -150,7 +147,6 @@ specific language governing permissions and limitations under the License.
 [GitHub]: https://github.com/datastax/php-driver
 [Home]: http://docs.datastax.com/en/developer/php-driver/latest
 [API]: http://docs.datastax.com/en/developer/php-driver/latest/api
-[Provide your input]: http://goo.gl/forms/HbSiIJ2tLP
 [installing-details]: https://github.com/datastax/php-driver/blob/master/ext/README.md
 [contribution-policy]: https://github.com/datastax/php-driver/blob/master/CONTRIBUTING.md
 [Behat Framework]: http://docs.behat.org
