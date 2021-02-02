@@ -371,6 +371,7 @@ PHP_INI_MH(OnUpdateLogLevel)
                        ZSTR_VAL(new_value));
 #else
                        new_value);
+                       new_value);
 #endif
       cass_log_set_level(CASS_LOG_ERROR);
     }
