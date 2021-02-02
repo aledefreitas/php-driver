@@ -6,5 +6,5 @@ Custom:
       comment: The type of this value.
       return:
         comment: ""
-        type: \Cassandra\Type\Custom
+        type: Type\Custom
 ...

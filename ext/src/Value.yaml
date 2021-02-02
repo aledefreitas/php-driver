@@ -26,5 +26,5 @@ Value:
       comment: The type of represented by the value.
       return:
         comment: ""
-        type: \Cassandra\Type
+        type: Type
 ...

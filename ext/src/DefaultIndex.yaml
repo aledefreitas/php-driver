@@ -25,7 +25,7 @@ DefaultIndex:
           type: string
       return:
         comment: ""
-        type: \Cassandra\Value
+        type: Value
     options:
       comment: ""
       return:

@@ -12,7 +12,7 @@ UserTypeValue:
       comment: The type of this user type value.
       return:
         comment: ""
-        type: \Cassandra\Type
+        type: Type
     values:
       comment: Array of values in this user type value.
       return:

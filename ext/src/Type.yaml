@@ -6,107 +6,107 @@ Type:
       comment: Get representation of varchar type
       return:
         comment: varchar type
-        type: \Cassandra\Type
+        type: Type
     text:
       comment: Get representation of text type
       return:
         comment: text type
-        type: \Cassandra\Type
+        type: Type
     blob:
       comment: Get representation of blob type
       return:
         comment: blob type
-        type: \Cassandra\Type
+        type: Type
     ascii:
       comment: Get representation of ascii type
       return:
         comment: ascii type
-        type: \Cassandra\Type
+        type: Type
     bigint:
       comment: Get representation of bigint type
       return:
         comment: bigint type
-        type: \Cassandra\Type
+        type: Type
     counter:
       comment: Get representation of counter type
       return:
         comment: counter type
-        type: \Cassandra\Type
+        type: Type
     int:
       comment: Get representation of int type
       return:
         comment: int type
-        type: \Cassandra\Type
+        type: Type
     varint:
       comment: Get representation of varint type
       return:
         comment: varint type
-        type: \Cassandra\Type
+        type: Type
     boolean:
       comment: Get representation of boolean type
       return:
         comment: boolean type
-        type: \Cassandra\Type
+        type: Type
     decimal:
       comment: Get representation of decimal type
       return:
         comment: decimal type
-        type: \Cassandra\Type
+        type: Type
     double:
       comment: Get representation of double type
       return:
         comment: double type
-        type: \Cassandra\Type
+        type: Type
     float:
       comment: Get representation of float type
       return:
         comment: float type
-        type: \Cassandra\Type
+        type: Type
     inet:
       comment: Get representation of inet type
       return:
         comment: inet type
-        type: \Cassandra\Type
+        type: Type
     timestamp:
       comment: Get representation of timestamp type
       return:
         comment: timestamp type
-        type: \Cassandra\Type
+        type: Type
     uuid:
       comment: Get representation of uuid type
       return:
         comment: uuid type
-        type: \Cassandra\Type
+        type: Type
     timeuuid:
       comment: Get representation of timeuuid type
       return:
         comment: timeuuid type
-        type: \Cassandra\Type
+        type: Type
     smallint:
       comment: Get representation of smallint type
       return:
         comment: smallint type
-        type: \Cassandra\Type
+        type: Type
     tinyint:
       comment: Get representation of tinyint type
       return:
         comment: tinyint type
-        type: \Cassandra\Type
+        type: Type
     date:
       comment: Get representation of date type
       return:
         comment: date type
-        type: \Cassandra\Type
+        type: Type
     time:
       comment: Get representation of time type
       return:
         comment: time type
-        type: \Cassandra\Type
+        type: Type
     duration:
       comment: Get representation of duration type
       return:
         comment: duration type
-        type: \Cassandra\Type
+        type: Type
     collection:
       comment: |-
         Initialize a Collection type
@@ -122,10 +122,10 @@ Type:
       params:
         type:
           comment: The type of values
-          type: \Cassandra\Type
+          type: Type
       return:
         comment: '      The collection type'
-        type: \Cassandra\Type
+        type: Type
     map:
       comment: |-
         Initialize a map type
@@ -141,13 +141,13 @@ Type:
       params:
         keyType:
           comment: The type of keys
-          type: \Cassandra\Type
+          type: Type
         valueType:
           comment: The type of values
-          type: \Cassandra\Type
+          type: Type
       return:
         comment: '            The map type'
-        type: \Cassandra\Type
+        type: Type
     set:
       comment: |-
         Initialize a set type
@@ -163,10 +163,10 @@ Type:
       params:
         type:
           comment: The types of values
-          type: \Cassandra\Type
+          type: Type
       return:
         comment: The set type
-        type: \Cassandra\Type
+        type: Type
     tuple:
       comment: |-
         Initialize a tuple type
@@ -182,10 +182,10 @@ Type:
       params:
         types:
           comment: A variadic list of types
-          type: \Cassandra\Type
+          type: Type
       return:
         comment: The tuple type
-        type: \Cassandra\Type
+        type: Type
     userType:
       comment: |-
         Initialize a user type
@@ -201,10 +201,10 @@ Type:
       params:
         types:
           comment: A variadic list of name/type pairs
-          type: \Cassandra\Type
+          type: Type
       return:
         comment: The user type
-        type: \Cassandra\Type
+        type: Type
     name:
       comment: Returns the name of this type as string.
       return:

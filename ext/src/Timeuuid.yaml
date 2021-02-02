@@ -12,7 +12,7 @@ Timeuuid:
       comment: The type of this timeuuid.
       return:
         comment: ""
-        type: \Cassandra\Type
+        type: Type
     __toString:
       comment: Returns this timeuuid as string.
       return:

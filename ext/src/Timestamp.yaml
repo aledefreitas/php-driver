@@ -17,7 +17,7 @@ Timestamp:
       comment: The type of this timestamp.
       return:
         comment: ""
-        type: \Cassandra\Type
+        type: Type
     time:
       comment: |-
         Unix timestamp.

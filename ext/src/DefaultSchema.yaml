@@ -10,7 +10,7 @@ DefaultSchema:
           type: string
       return:
         comment: ""
-        type: \Cassandra\Keyspace
+        type: Keyspace
     keyspaces:
       comment: ""
       return:

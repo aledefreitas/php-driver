@@ -13,5 +13,5 @@ FutureRows:
           type: int|double|null
       return:
         comment: The result set
-        type: \Cassandra\Rows|null
+        type: Rows|null
 ...
