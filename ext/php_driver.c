@@ -368,10 +368,9 @@ PHP_INI_MH(OnUpdateLogLevel)
       php_error_docref(NULL TSRMLS_CC, E_NOTICE,
                        PHP_DRIVER_NAME " | Unknown log level '%s', using 'ERROR'",
 #if PHP_MAJOR_VERSION >= 7
-                      ZSTR_VAL(new_value));
+                       ZSTR_VAL(new_value));
 #else
-                      new_value);
-                      new_value);
+                       new_value);
 #endif
       cass_log_set_level(CASS_LOG_ERROR);
     }
